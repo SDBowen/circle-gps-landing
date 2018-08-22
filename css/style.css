@@ -36,25 +36,25 @@ body {
   clip-path: polygon(0 85vh, 100% 70vh, 100% 0, 0 0);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 13rem;
 }
 
-.logo {
+.header__logo {
   height: 3.2rem;
   float: left;
   padding-right: 1rem;
 }
 
-.logo-text {
+.header__logo-text {
   float: left;
   font-size: 2.5rem;
   margin-top: -0.5rem;
 }
 
-.header-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 38%;
@@ -68,7 +68,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   color: #c15124;
   display: block;
   font-size: 6rem;
@@ -76,7 +76,7 @@ body {
   animation: moveInLeft 1s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -133,17 +133,17 @@ body {
   box-shadow: 0 0 0 0.7rem rgba(157, 124, 191, 0.25); /* CHANGE COLOR */
 }
 
-.btn-purple {
+.btn--purple {
   background-color: #af2bbf;
   color: #fff;
   margin: 0 2rem 0 11.5rem;
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.65s ease-out 0.35s;
   animation-fill-mode: backwards;
 }
