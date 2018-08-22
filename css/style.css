@@ -1,17 +1,24 @@
 /* Universal selector */
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* Adjust default font size (16px) to 10px - 10/16  */
 }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.7;
   color: white;
-  padding: 30px;
+  padding: 3rem;
+
+  box-sizing: border-box;
 }
 
 .header {
@@ -31,19 +38,20 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 130px;
+  top: 4rem;
+  left: 13rem;
 }
 
 .logo {
-  height: 32px;
+  height: 3.2rem;
   float: left;
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 
 .logo-text {
   float: left;
-  margin-top: -3px;
+  font-size: 2.5rem;
+  margin-top: -0.5rem;
 }
 
 .header-box {
@@ -57,29 +65,29 @@ body {
   color: #fff;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .heading-primary-main {
   color: #c15124;
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
   animation: moveInLeft 1s ease-out;
 }
 
 .heading-primary-sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
-  padding-right: 510px;
+  padding-right: 51rem;
   animation: moveInRight 1s ease-out;
 }
 
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
 
   100% {
@@ -91,7 +99,7 @@ body {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
 
   100% {
@@ -103,7 +111,7 @@ body {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(5rem);
   }
 
   100% {
@@ -115,19 +123,20 @@ body {
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 10rem;
+  font-size: 1.8rem;
 }
 
 .btn:hover {
-  box-shadow: 0 0 0 7px rgba(157, 124, 191, 0.25); /* CHANGE COLOR */
+  box-shadow: 0 0 0 0.7rem rgba(157, 124, 191, 0.25); /* CHANGE COLOR */
 }
 
 .btn-purple {
   background-color: #af2bbf;
   color: #fff;
-  margin: 0 20px 0 121px;
+  margin: 0 2rem 0 11.5rem;
 }
 
 .btn-white {
