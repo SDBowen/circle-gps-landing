@@ -35,13 +35,15 @@ body {
   left: 130px;
 }
 
-.text {
+.logo {
+  height: 32px;
   float: left;
+  padding-right: 10px;
 }
 
-.logo {
-  height: 35px;
+.logo-text {
   float: left;
+  margin-top: -3px;
 }
 
 .header-box {
