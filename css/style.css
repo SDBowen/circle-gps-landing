@@ -124,6 +124,12 @@ body {
   box-shadow: 0 0 0 7px rgba(157, 124, 191, 0.25); /* CHANGE COLOR */
 }
 
+.btn-purple {
+  background-color: #af2bbf;
+  color: #fff;
+  margin: 0 20px 0 122px;
+}
+
 .btn-white {
   background-color: #fff;
 }
