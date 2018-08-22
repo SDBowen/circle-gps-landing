@@ -1,0 +1,29 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    font-size: 1.8rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 0.7rem rgba($color-primary-light, 0.25);
+  }
+
+  &--purple {
+    background-color: $color-primary;
+    color: $color-white;
+    margin: 0 2rem 0 11.5rem;
+  }
+
+  &--white {
+    background-color: $color-white;
+  }
+
+  &--animated {
+    animation: moveInBottom 0.65s ease-out 0.35s;
+    animation-fill-mode: backwards;
+  }
+}
