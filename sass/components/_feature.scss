@@ -1,12 +1,18 @@
 .feature {
   width: 85%;
   margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
-  background-color: $color-white;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   padding: 6rem;
   padding-left: 9rem;
   font-size: $default-font-size;
+  transition: all 0.5s;
+
+  &:hover {
+    box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+    background-color: $color-white;
+    color: $color-primary-dark;
+    transform: translateY(-0.3rem);
+  }
 
   &__photo-box {
     width: 20rem;
