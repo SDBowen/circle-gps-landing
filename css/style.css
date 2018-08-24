@@ -135,6 +135,8 @@ body {
     height: 20rem;
     float: left;
     transform: translateY(-2rem) translateX(-4rem); }
+    .feature__photo-box--right {
+      float: right; }
   .feature__img {
     height: 100%;
     transform: translateX(0rem); }
