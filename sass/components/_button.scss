@@ -27,3 +27,13 @@
     animation-fill-mode: backwards;
   }
 }
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $color-primary-dark;
+    display: inline-block;
+    text-decoration: none;
+  }
+}

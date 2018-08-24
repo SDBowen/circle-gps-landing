@@ -111,6 +111,12 @@ body {
   animation: moveInBottom 0.65s ease-out 0.35s;
   animation-fill-mode: backwards; }
 
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  color: #9300af;
+  display: inline-block;
+  text-decoration: none; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
