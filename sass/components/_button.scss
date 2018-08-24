@@ -31,7 +31,7 @@
 .btn-text {
   &:link,
   &:visited {
-    font-size: 1.6rem;
+    font-size: $default-font-size;
     color: $color-primary-dark;
     display: inline-block;
     text-decoration: none;
