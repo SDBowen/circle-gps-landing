@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: $color-white;
+  color: $color-black;
   padding: 3rem;
 }
 
@@ -26,5 +26,27 @@ body {
     font-weight: 700;
     padding-right: 51rem;
     animation: moveInRight 1s ease-out;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-primary-dark;
+  letter-spacing: 0.2rem;
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
   }
 }
