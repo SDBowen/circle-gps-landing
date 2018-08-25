@@ -35,6 +35,18 @@ body {
   font-weight: 700;
   color: $color-primary-dark;
   letter-spacing: 0.2rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+  }
 }
 
 .heading-tertiary {

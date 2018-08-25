@@ -66,6 +66,14 @@ body {
   font-weight: 700;
   color: #9300af;
   letter-spacing: 0.2rem; }
+  .heading-secondary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400; }
+  .heading-secondary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700; }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -76,6 +84,9 @@ body {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+
+.u-btn-margin {
+  margin: 0 2rem 0 11.5rem; }
 
 .u-center-text {
   text-align: center; }
@@ -101,8 +112,7 @@ body {
 
 .btn--purple {
   background-color: #b02bbf;
-  color: #fff;
-  margin: 0 2rem 0 11.5rem; }
+  color: #fff; }
 
 .btn--white {
   background-color: #fff; }
@@ -198,3 +208,7 @@ body {
   background-color: #f7f7f7;
   padding: 20rem 0;
   margin-top: -25vh; }
+
+.section-signup {
+  background-color: #fff;
+  padding: 20rem 30rem; }
