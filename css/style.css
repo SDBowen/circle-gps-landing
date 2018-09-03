@@ -226,6 +226,28 @@ body {
   background-position: top;
   -webkit-clip-path: polygon(0 85vh, 100% 70vh, 100% 0, 0 0);
   clip-path: polygon(0 85vh, 100% 70vh, 100% 0, 0 0); }
+  .header__navigation {
+    font-size: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 13rem;
+    font-weight: 700; }
+  .header__list {
+    list-style: none; }
+  .header__item {
+    display: inline-block; }
+    .header__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .header__link:link, .header__link:visited {
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.2s; }
+  .header__link:hover, .header__link:active {
+    color: #9300af;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+    transform: scale(1.1); }
   .header__logo-box {
     position: absolute;
     top: 4rem;

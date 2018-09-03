@@ -12,6 +12,45 @@
   -webkit-clip-path: polygon(0 85vh, 100% 70vh, 100% 0, 0 0);
   clip-path: polygon(0 85vh, 100% 70vh, 100% 0, 0 0);
 
+  &__navigation {
+    font-size: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 13rem;
+    font-weight: 700;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-grey-light-1;
+      // background-color: darkgray;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary-dark;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.05);
+      transform: scale(1.1);
+    }
+  }
+
   &__logo-box {
     position: absolute;
     top: 4rem;
