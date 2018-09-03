@@ -54,10 +54,14 @@
     }
   }
 
-  &__copyright {
+  &__social {
     border-top: 1px solid $color-grey-light-1;
     padding-top: 2rem;
     width: 20rem;
     float: right;
+  }
+
+  &__image {
+    height: 3rem;
   }
 }

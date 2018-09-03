@@ -184,11 +184,13 @@ body {
     color: #9300af;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
     transform: scale(1.1); }
-  .footer__copyright {
+  .footer__social {
     border-top: 1px solid #f7f7f7;
     padding-top: 2rem;
     width: 20rem;
     float: right; }
+  .footer__image {
+    height: 3rem; }
 
 .row {
   max-width: 114rem;
